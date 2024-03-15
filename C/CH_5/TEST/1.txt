@@ -1,0 +1,12 @@
+Hello World
+Ch[0] = H
+Ch[1] = e
+Ch[2] = l
+Ch[3] = l
+Ch[4] = o
+Ch[5] =  
+Ch[6] = W
+Ch[7] = o
+Ch[8] = r
+Ch[9] = l
+Ch[10] = d

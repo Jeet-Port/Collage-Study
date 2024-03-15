@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                border: 10px solid black;
+            }
+            th,td{
+                border: 5px solid gray;
+                padding: 0px;
+                height: 50px;
+                width: 100px;
+                text-align: center;
+            }
+            tr:hover {
+                background-color: lightblue;
+            }
+            tr:nth-child(even){
+                background-color: lightpink;
+            }
+            p.rotate{
+                transform: rotate(-90deg);
+                font-size: xx-large;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Lec</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <td rowspan="6"><p class ="rotate">Break</p></td>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Py - p</td>
+                <td colspan="2">DBMS</td>
+                <td>MIT</td>
+                <td>DCN</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="2">Py - p</td>
+                <td colspan="2">DCN - p</td> 
+                <td>MIT</td>
+                <td>OS</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td colspan="2">OS - p</td>
+                <td>OS</td>
+                <td>MIT</td>
+                <td>DCN</td>
+                <td>DCN</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td colspan="2">DBMS - p</td>
+                <td>DBMS</td>
+                <td>DBMS</td>
+                <td>SCV</td>
+                <td>OS</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>DBMS</td>
+                <td>SCV</td>
+                <td colspan="2">MIT - p</td>
+                <td>Py</td>
+                <td>Py</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td colspan="7">Extra Classes Or Doubt Solving Session</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+
+Student [1]
+Name = jeet
+Maths = 60
+Science = 70
+Percentage = 75
+Student [2]
+Fail

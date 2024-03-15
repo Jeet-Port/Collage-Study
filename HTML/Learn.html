@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\jeetj\Downloads\LogoMakr.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            pre{
+                color: purple;
+                border: 1px solid black;
+                font-family: Arial;
+                padding: 10px;
+                margin: 10px;
+            }
+            body{
+                background-color: whitesmoke;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                color: red;
+            }
+            blockquote{
+                color: goldenrod;
+            }
+            a:link{
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+                text-align: center;
+                display: inline-block;
+            }
+            a:visited{
+                color:blue;
+                background-color: transparent;
+                text-decoration: none;
+                text-align: center;
+                display: inline-block;
+            }
+            a:hover{
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:active{
+                color:black;
+            }
+            th,td{
+                background-color: red;
+                color: aqua;
+                border-radius: 10px;
+                border-style: dotted;
+                text-align: center;
+            }
+            table{
+                border: 2px solid black;
+                border-color: rgb(146, 251, 0);
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: lightcoral;
+            }
+            li{
+                float: right;
+            }
+            li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            li a:hover{
+                background-color: black;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            header{
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav{
+                float: left;
+                width: 30%;
+                height: 300px;
+                background-color: #ccc;
+                padding: 20px;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 0;
+            }
+            article{
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 300px;
+            }
+            section::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer{
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            @media (max-width:600px){
+                nav,article{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .p1{
+                border: 2px solid black;
+                position: relative;
+            }
+            .p2{
+                border: 2px solid black;
+                position: static;
+            }
+            .p4{
+                border: 2px solid black;
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                width: 300px;
+                border: 3px solid #73AD21;
+            }
+            .p5{
+                border: 2px solid black;
+                position: absolute;
+            }
+            #img1{
+                z-index: -1;
+                position: absolute;
+            }
+            .p3{
+                overflow: scroll;
+                color: white;
+                padding: 15px;
+                width: 50%;
+                height: 100px;
+                border: 1px solid #ccc;
+            }
+            #img2{
+                float: right;
+                clear: right;
+            }
+            q:lang(no){
+                quotes: "~""~";
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML</h1>
+        <p style="font-size: 25px; border: 2px solid blue;">Lets Start</p>
+        <hr>
+        <p style="color: red;" title="Hyper Text Markup Language">HTML</p>
+        <img src="C:\Users\jeetj\Downloads\23652.jpg" width="100px" height="100px" alt="Image" style="float: right; opacity: 0.5;"><br>
+        <a href="https://www.google.com/" target="_blank" title="hehehehe">Google</a><br>
+        <pre style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+            1 hello
+            2 World
+        </pre>
+        <blockquote>
+            For nearly 60 years, WWF has been protecting the future of nature. 
+            The world's leading conservation organization, 
+            WWF works in 100 countries and is supported by more than one million members in the <abbr title="United States">US</abbr> and close to five million globally.
+        </blockquote>
+        <bdo dir="rtl">Hello</bdo>
+        <a href="https://www.google.com/" target="_blank"><img src="C:\Users\jeetj\Downloads\23652.jpg" width="100px" height="100px" alt="Image"></a><br>
+        <button><a href="mailto:jeetjeetambolikar11@gmail.com">sent mail</a></button>
+        <p><a href="#C4">Jump to Chapter 4</a></p>
+
+        <h2>Chapter 1</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 2</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 3</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2 id="C4">Chapter 4</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 5</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 6</h2>
+        <p>This chapter explains ba bla bla</p>
+
+        <h2>Chapter 7</h2>
+        <p>This chapter explains ba bla bla</p>
+        <table style="width:50px;">
+            <tr>
+                <th>1</th>
+                <td style="width: 16px;">2</td>
+            </tr>
+            <tr>
+                <th style="width: 16p;">3</th>
+                <td style="width: 7px;">4</td>
+            </tr>
+        </table>
+    <h2>List</h2>
+    <ul>
+        <li><a href="J:\HTML\ContactUs.html">Contact Us</a></li>
+        <li><a href="J:\HTML\Projects.html">Projects</a></li>
+        <li><a href="J:\HTML\Services.html">Services</a></li>
+        <li><a href="J:\HTML\AboutUs.html">About Us</a></li>
+        <li><a href="J:\HTML\Home.html">Home</a></li>
+    </ul>
+    <iframe src="Learn.html" height="200px" width="1500px"></iframe>
+    <button type="button" onclick="myfunction()">CLick Here</button>
+    <p id="demo">JavaScript Can Change style</p>
+    <script>
+        function myfunction(){
+            document.getElementById("demo").innerHTML="Example";
+            document.getElementById("demo").style.fontSize="25PX";
+            document.getElementById("demo").style.color="red";
+        }
+    </script>
+    <script>
+        function light(sw){
+            var pic;
+            if(sw==0){
+                pic="C:/Users/jeetj/Downloads/pic_bulboff.gif"
+            } else{
+                pic="C:/Users/jeetj/Downloads/pic_bulbon.gif"
+            }
+            document.getElementById('myImage').src=pic;
+        }
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <img id="myImage" src="C:\Users\jeetj\Downloads\pic_bulboff.gif" width="100" height="180">
+    <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+    </p>
+    <hr>
+    <hr>
+    <header>
+        <h2>Cities</h2>
+      </header>
+      
+      <section>
+        <nav>
+          <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+          </ul>
+        </nav>
+        <article>
+          <h1>London</h1>
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </article>
+      </section>
+      <footer>
+            <p>Footer</p>
+        </footer>
+        <p class="p1">
+            hello
+        </p>
+        <p class="p2">
+            hello
+        </p>
+        <p class="p4">
+            hello
+        </p>
+        <p class="p5">
+            hello
+        </p>
+        <img src="C:\Users\jeetj\Downloads\23652.jpg" width="100px" height="100px" alt="Image" id="img1"><br>
+        <p class="p3">
+            Apple Inc. is an American multinational technology company that specializes in consumer electronics, 
+            software and online services headquartered in Cupertino, California, United States. 
+            Apple is the largest technology company by revenue (totaling US$365.8 billion in 2021) and as of May 2022, 
+            it is the world's second biggest company by market capitalization,[7] the fourth-largest personal computer 
+            vendor by unit sales and second-largest mobile phone manufacturer. It is one of the Big Five American information 
+            technology companies, alongside Alphabet, Amazon, Meta, and Microsoft.
+        </p>
+        <img src="C:\Users\jeetj\Downloads\23652.jpg" width="100px" height="100px" alt="Image" id="img2"><br>
+        <p>
+            some text <q lang="no">A quote</q>Some text
+        </p>
+    </body>
+</html>

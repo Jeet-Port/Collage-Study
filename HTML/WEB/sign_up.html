@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #2980b9;
+        }
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            background: white;
+            border-radius: 25px;
+        }
+        .center h1{
+            text-align: center;
+            padding: 0 0 20px 0;
+            border-bottom: 2px solid silver;
+            color: rgb(37, 116, 149);
+        }
+        .center form{
+            padding: 0 40px;
+            box-sizing: border-box;   
+        }
+        form .input{
+            position: relative;
+            border-bottom: 2px solid #adadad;
+            margin: 30px, 0;
+        }
+        form .input input{
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        .input label{
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            color: #adadad;
+            transform: translateY(-50%);
+            font-size: 16px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Sign up</h1>
+        <form action="#" method="post">
+            <div class="input">
+                <input type="text" name="Username" id="username">
+                <label>Username</label>
+            </div>
+            <div class="input">
+                <input type="text" name="F_name" id="f_name">
+                <label>Full Namw</label>
+            </div>
+            <div class="input">
+                <input type="email" name="Email" id="email" >
+                <label>Gmail</label>
+            </div>
+            <div class="input">
+                <input type="password" name="Pass" id="pass">
+                <label>Password</label>
+            </div>
+            <input type="reset" value="Reset"><br>
+            <input type="submit" value="Submit" onclick="alert('Thanks')">
+        </form>
+    </div>
+</body>
+</html>

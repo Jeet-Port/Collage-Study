@@ -1,0 +1,5 @@
+
+After Assending Element we get
+15	35	45	65	75	95	
+After Dssending Element we get
+95	75	65	45	35	15	

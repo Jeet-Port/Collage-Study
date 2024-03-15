@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h2 style="color: red;">FORM</h2>
+        <form action="J:\HTML\Prectice\Learn.html" target="_self" method="get" autocomplete="on">
+            <fieldset>
+                <legend>Info</legend>
+                <label for="fname">First Name </label><br>
+                <input type="text" id="fname" name="fname" value="first name" required><br>
+                <label for="lname">Last Name </label><br>
+                <input type="text" id="lname" name="lname" value="last name" required><br>
+                <label for="pass">Password </label><br>
+                <input type="password" id="pass" name="pass"><br>
+                <label for="gmail">Gmail </label><br>
+                <input type="email" id="gmail" name="gmail">
+                <p>Choose Your Favorite Web Language</p>
+                <input type="checkbox" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="checkbox" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="checkbox" id="javascript" name="fav_language" value="javascript">
+                <label for="javascript">Javascript</label><br>
+                <p>Choose Your Favorite Programiing Language</p>
+                <select id="lan" name="lan" size="3" multiple>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="Python">Python</option>
+                </select><br>
+				<p>Comment</p>
+                <textarea name="message" style="width:200px; height: 100px;">Enter Text.</textarea><br>
+                <label for="browsers">browsers</label><br>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="Internet Explorer"></option>
+                    <option value="Firefox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                </datalist><br>
+                <label for="color">Enter Your Favorite Color</label><br>
+                <input type="color" id="color" name="color"><br>
+                <label for="date">Date</label><br>
+                <input type="datetime-local" id="date" name="date"><br>
+                <label for="file">File</label><br>
+                <input type="file" id="file" name="file">
+                <br><input type="reset">
+                <br><button type="button" onclick="alert('Thanks')">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

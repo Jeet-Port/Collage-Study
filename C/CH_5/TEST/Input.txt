@@ -1,0 +1,7 @@
+Student [1]
+Student Name = jeet
+Maths = 60
+Science = 70Student [2]
+Student Name = ayush
+Maths = 38
+Science = 60
